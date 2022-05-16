@@ -3,9 +3,9 @@ import { getJwt, verifyDecodeJwt } from '../../utils/jwt';
 
 const api = axios.create({
   // GG Url serveur distant
-  baseURL: 'http://54.37.154.200:10000/api/v1/',
+  // baseURL: 'http://54.37.154.200:10000/api/v1/',
   // GG Url serveur local
-  // baseURL: 'http://localhost:1234/api/v1/',
+  baseURL: 'http://localhost:5000/api/v1/',
 });
 
 export default api;
