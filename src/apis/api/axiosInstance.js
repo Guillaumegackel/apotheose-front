@@ -5,9 +5,10 @@ const api = axios.create({
   // GG Url serveur distant
   // baseURL: 'http://54.37.154.200:10000/api/v1/',
   // GG Url serveur local
-  baseURL: 'http://localhost:5000/api/v1/',
+  // baseURL: 'http://localhost:5000/api/v1/',
+  baseURL: 'https://cduprops-back.herokuapp.com/api/v1/',
 });
-
+// https://cduprops.herokuapp.com/
 export default api;
 
 /**

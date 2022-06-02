@@ -23,6 +23,7 @@ function LeaderboardPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
+  // !! car je veux un "true" booleen
   const hasHome = !!(
     userData
     && (userData?.home_id || userData?.home_id === 0)
